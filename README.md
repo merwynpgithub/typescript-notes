@@ -5,3 +5,4 @@
 `cd typescript-notes` <br/>
 `touch index.ts` <br/>
 `tsc index.ts` This will create index.js and then run `node index.js` <br/>
+`tsc --init` This will create tsconfig file <br/>
