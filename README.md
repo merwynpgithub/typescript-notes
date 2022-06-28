@@ -10,8 +10,14 @@ Create src and dist folders in the root <br/>
 Enable "rootDir": "./src" <br/>
 Enable "outDir": "./dist" <br/>
 Enable "noEmitOnError": true <br/>
+To complile to js, run `tsc` only <br/>
 
 ## JS Data Types
 number, string, boolean, null, undefined, object
-## Typescript added types
+## TypeScript added types
 any, unknown, never, enum, tuple
+### TS Number representation
+`let sales: number = 100_000_000` <br/>
+_ is used to separate out digits like , in 100,000,000 <br/>
+### Annotation in TS
+`let is_complete = false` is valid instead of `let is_complete: boolean = false`
