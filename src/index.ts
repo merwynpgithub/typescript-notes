@@ -24,3 +24,8 @@ let nums2 = [1, 2, 3]; //expects an array of numbers due to initialization
 //Fixed length Array
 let user: [number, string] = [1, 'John'];
 //Tuple is ideal for array with 2 elements (key/value pairs)
+
+//Enums (List of related constants)
+//Use Pascal naming convention
+enum Size { Small = 1, Medium, Large }; //Medium = 2, Large = 3 in enum initialization
+let mySize: Size = Size.Medium; // mySize = 2

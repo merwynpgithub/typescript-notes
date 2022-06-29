@@ -20,3 +20,13 @@ let nums2 = [1, 2, 3]; //expects an array of numbers due to initialization
 //Fixed length Array
 let user = [1, 'John'];
 //Tuple is ideal for array with 2 elements (key/value pairs)
+//Enums (List of related constants)
+//Use Pascal naming convention
+var Size;
+(function (Size) {
+    Size[Size["Small"] = 1] = "Small";
+    Size[Size["Medium"] = 2] = "Medium";
+    Size[Size["Large"] = 3] = "Large";
+})(Size || (Size = {}));
+; //Medium = 2, Large = 3 in enum initialization
+let mySize = Size.Medium; // mySize = 2
