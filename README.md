@@ -21,3 +21,6 @@ any, unknown, never, enum, tuple
 _ is used to separate out digits like , in 100,000,000 <br/>
 ### Annotation in TS
 `let is_complete = false` is valid instead of `let is_complete: boolean = false`
+### Any type in TS
+Declare a variable but do not initialize its value eg. `let x` <br/>
+In order to disble type checking disable "noImplicitAny": false, in tsconfig (Not recommended)  
