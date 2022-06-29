@@ -9,7 +9,18 @@ let sales: number = 100_000_000 //_ used to separate out digits like , in 100,00
 let is_completed: boolean = false;
 //Without annotation
 let is_done = false;
-//Any type...declare a variable but don't initialize its value
+
+//Any
+//Declare a variable but don't initialize its value
 let x;
 //Any type is not recommended
 
+//Arrays
+let nos = [1, 2, '3']; //works
+let nums: number[] = [1, 2, 3]; //expects an array of numbers
+let nums2 = [1, 2, 3]; //expects an array of numbers due to initialization
+
+//Tuple
+//Fixed length Array
+let user: [number, string] = [1, 'John'];
+//Tuple is ideal for array with 2 elements (key/value pairs)

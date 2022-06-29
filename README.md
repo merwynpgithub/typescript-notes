@@ -23,4 +23,6 @@ _ is used to separate out digits like , in 100,000,000 <br/>
 `let is_complete = false` is valid instead of `let is_complete: boolean = false`
 ### Any type in TS
 Declare a variable but do not initialize its value eg. `let x` <br/>
-In order to disble type checking disable "noImplicitAny": false, in tsconfig (Not recommended)  
+In order to disble type checking disable "noImplicitAny": false, in tsconfig (Not recommended)
+### Tuple (Fixed Length Array)
+Used for arrays with ideally 2 elements (key/value pairs)
