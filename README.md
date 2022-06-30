@@ -34,4 +34,11 @@ Used for arrays with ideally 2 elements (key/value pairs) <br/>
 Enable "noUnusedParameters": true, in tsconfig.<br/>
 `function calculateTax(income: number): number {return income * 1.2}`<br/>
 income parameter type (number) and return type (number) should be defined as good practice. <br/>
-If return type is not specified, then void is the return type.
+If return type is not specified, then void is the return type. <br/>
+Enable "noImplicitReturns": true, in tsconfig. Return type of undefined will show an error.<br/>
+Enable "noUnusedLocals": true, in tsconfig. Unused local variables will cause an error.<br/>
+### Objects
+First specify type of Object. <br/>
+`type Employee =  {id: number, name: string};`<br/>
+`const employee: Employee = {id: 1, name: ""};`<br/>
+Since objects can be modified in the Program, optional keys can be added. For eg: `age?: number`. The employee object does not need age key until initialized in the runtime.

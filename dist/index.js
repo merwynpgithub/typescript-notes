@@ -34,3 +34,8 @@ let mySize = Size.Medium; // mySize = 2
 function calculateTax(income) {
     return income * 1.2;
 }
+const employee = {
+    id: 1,
+    name: "" //optional if Employee key name? is optional
+};
+employee.name = "John";
