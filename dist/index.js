@@ -30,3 +30,7 @@ var Size;
 })(Size || (Size = {}));
 ; //Medium = 2, Large = 3 in enum initialization
 let mySize = Size.Medium; // mySize = 2
+//Functions
+function calculateTax(income) {
+    return income * 1.2;
+}

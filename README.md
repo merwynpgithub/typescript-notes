@@ -30,3 +30,8 @@ Used for arrays with ideally 2 elements (key/value pairs) <br/>
 ### Enums (List of related constants)
 `enum Size { Small = 1, Medium, Large };` Medium = 2, Large = 3 in enum initialization <br/>
 `let mySize: Size = Size.Medium;` mySize = 2
+### Functions
+Enable "noUnusedParameters": true, in tsconfig.<br/>
+`function calculateTax(income: number): number {return income * 1.2}`<br/>
+income parameter type (number) and return type (number) should be defined as good practice. <br/>
+If return type is not specified, then void is the return type.

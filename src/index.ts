@@ -29,3 +29,8 @@ let user: [number, string] = [1, 'John'];
 //Use Pascal naming convention
 enum Size { Small = 1, Medium, Large }; //Medium = 2, Large = 3 in enum initialization
 let mySize: Size = Size.Medium; // mySize = 2
+
+//Functions
+function calculateTax(income: number): number {
+  return income * 1.2;
+}
