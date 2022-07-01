@@ -7,6 +7,7 @@
 `tsc index.ts` This will create index.js and then run `node index.js` <br/>
 `tsc --init` This will create a tsconfig file <br/>
 Create src and dist folders in the root <br/>
+In tsconfig: <br/>
 Enable "rootDir": "./src" <br/>
 Enable "outDir": "./dist" <br/>
 Enable "noEmitOnError": true <br/>
@@ -43,7 +44,7 @@ First specify type of Object. <br/>
 `const employee: Employee = {id: 1, name: ""};`<br/>
 Since objects can be modified in the Program, optional keys can be added. For eg: `age?: number`. The employee object does not need age key until initialized in the runtime.
 ### Literal types
-`type Name = 'John' | 'Jane';`
+`type Name = 'John' | 'Jane';`<br/>
 `let name: Name = 'John';`<br/>
 name can only take 2 values.<br/>
 ### Nullable
