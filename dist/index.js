@@ -39,3 +39,11 @@ const employee = {
     name: "" //optional if Employee key name? is optional
 };
 employee.name = "John";
+let name2 = 'John';
+//Nullable (union operator to define paramemter possible values)
+function sayHello(name) {
+    if (name)
+        console.log(`Hello ${name}`);
+    else
+        console.log("Hello...");
+}

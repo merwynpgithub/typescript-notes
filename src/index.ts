@@ -45,3 +45,14 @@ const employee: Employee = {
   name: "" //optional if Employee key name? is optional
 };
 employee.name = "John";
+
+//Literal (exact/specific values)
+//limit values assigned to variables
+type Name = 'John' | 'Jane';
+let name2: Name = 'John';
+
+//Nullable (union operator to define paramemter possible values)
+function sayHello(name: string | null) {
+  if (name) console.log(`Hello ${name}`);
+  else console.log("Hello...");
+}

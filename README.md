@@ -42,3 +42,9 @@ First specify type of Object. <br/>
 `type Employee =  {id: number, name: string};`<br/>
 `const employee: Employee = {id: 1, name: ""};`<br/>
 Since objects can be modified in the Program, optional keys can be added. For eg: `age?: number`. The employee object does not need age key until initialized in the runtime.
+### Literal types
+`type Name = 'John' | 'Jane';`
+`let name: Name = 'John';`<br/>
+name can only take 2 values.<br/>
+### Nullable
+`function sayHello(name: string | null) {console.log("Hello", name)}`
